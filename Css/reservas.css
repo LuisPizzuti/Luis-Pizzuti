@@ -1,0 +1,100 @@
+/*menu de navegacion*/
+.encabezado {
+    display: flex;
+    background-image: url(../img/24131089_330194467448535_2491115651563731776_n.jpg);
+    background-repeat:repeat;
+    background-size: 120px; 
+    justify-content: space-between;
+}
+
+.encabezado img { 
+    padding-right: 100%;
+
+
+}
+
+.menu ul{
+    list-style-type: none;
+    font-family: 'Manuale', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+
+.menu ul li a:hover{
+    background-color:rgba(57, 58, 58, 0.397);
+    border: 2px dotted black;
+    border-radius: 10px 0 10px 0;
+}
+
+/*cuerpo*/
+
+body{
+    background-image: url(/img/24131089_330194467448535_2491115651563731776_n.jpg);
+    background-repeat: repeat;
+    background-size: 100px;
+ }
+
+
+
+.titulo {
+    display: flex;
+    background-color: rgba(48, 47, 47, 0.9);
+    font-family: 'Allura', cursive;
+    font-size: x-large;
+    padding-left: 40px;
+    justify-content: center;
+    color: rgb(239, 240, 241);
+    margin: 20px;
+}
+
+.todo {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    font-size: large;
+    color: rgb(239, 240, 241);
+    justify-content: center;
+    background-color: rgba(66, 65, 67, 0.801);
+    margin-top: 10px;
+}
+
+/*para el footer*/
+
+body footer{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    flex-direction: column;
+    background-color:rgba(57, 58, 58, 0.644);
+    opacity: 0.8;
+    background-size: 550px; 
+    font-family: 'Manuale', serif;
+    font-size: 20px; 
+    color:antiquewhite;
+    text-align: center;
+}
+
+.footer .loguito{
+    padding-right:100px;
+}
+.footer .horarios{
+    padding-left: 180px ;
+}
+
+.footer .buscanos{
+    padding-left: 230px;
+}
