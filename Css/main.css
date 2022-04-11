@@ -79,14 +79,57 @@ a{
 
 /*contenido primera parte--------------------------------------------------------------------------------------*/
 
-    .img1 {
-  grid-area: imagen1;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  background-color:black;
+.img1 {
+    grid-area: imagen1;
+    background-size: cover;
+    background-image: url(/img/bebidas.jpg);
+    margin 30px auto;
+    }
+
+    .img1 .img1__info {
+        position:absolute;
+        overflow:hidden;
+        width: 690px;
+        height: 535px;
+        background-color: rgba(31, 31, 31, 0.9);
+        opacity:0;
+        transition: opacity 0.3s;
+    }
+
+    .img1:hover .img1__info{
+        opacity: 1;
+    }
+
+    h1.bebidas{
+        font-size: xx-large;
+        margin-top: 150px;
+        transition: margin-right 0.3s;
+        text-align: center;
+        color: aliceblue;
 
     }
+
+    .img1:hove p.bebidas{
+        margin-left: 115px,
+
+    }
+
+    p.bebidas2{
+        font-size:x-large;
+        text-align: center;
+        margin-top: 200px;
+        transition: margin-top 0.4s;
+        color: antiquewhite;
+
+    }
+
+    .img1:hover p.bebidas2{
+        margin-top: 75px;  
+    }
+
+
+
+
 
     .video1{
     grid-area: video1;
@@ -113,13 +156,52 @@ a{
 
 
 /*contenido segunda parte-----------------------------------------------------------------------------------*/
-    .img2 {
+.img2 {
     grid-area: imagen2;
-    display: flex;
-    justify-content: center;
-    background-color:black;
+    background-size: cover;
+    background-image: url(/img/comidas.jpg);
+    margin 30px auto;
+    }
 
-  
+    .img2 .img2__info {
+        position:absolute;
+        overflow:hidden;
+        width: 690px;
+        height: 560px;
+        background-color: rgba(31, 31, 31, 0.9);
+        opacity:0;
+        transition: opacity 0.3s;
+    }
+
+    .img2:hover .img2__info{
+        opacity: 1;
+    }
+
+    h1.comidas{
+        font-size: xx-large;
+        margin-top: 150px;
+        transition: margin-right 0.3s;
+        text-align: center;
+        color: aliceblue;
+
+    }
+
+    .img2:hove p.comidas{
+        margin-left: 115px,
+
+    }
+
+    p.comidas2{
+        font-size:x-large;
+        text-align: center;
+        margin-top: 200px;
+        transition: margin-top 0.4s;
+        color: antiquewhite;
+
+    }
+
+    .img2:hover p.comidas2{
+        margin-top: 75px;    
     }
 
     .video3{
