@@ -186,7 +186,7 @@ a{
 
     }
 
-    .img2:hove p.comidas{
+    .img2:hover p.comidas{
         margin-left: 115px,
 
     }
@@ -292,7 +292,21 @@ a{
         padding: 0;
     }
     
-    
+    h1.comidas{
+        display: none;
+    }
+
+    p.comidas2{
+        display: none;
+    }
+
+    p.bebidas2{
+        display: none;
+    }
+
+    h1.bebidas{
+        display: none;
+    }
 
 
     #area{

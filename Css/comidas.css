@@ -1,0 +1,143 @@
+/*menu de navegacion*/
+.encabezado {
+    display: flex;
+    background-image: url(../img/24131089_330194467448535_2491115651563731776_n.jpg);
+    background-repeat:repeat;
+    background-size: 120px; 
+    justify-content: space-between;
+}
+
+.encabezado img { 
+    padding-right: 100%;
+}
+
+.menu ul{
+    list-style-type: none;
+    font-family: 'Manuale', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+
+.menu ul li a:hover{
+    background-color:rgba(57, 58, 58, 0.397);
+    border: 2px dotted black;
+    border-radius: 10px 0 10px 0;
+}
+
+
+
+
+/*cuerpo*/
+
+body{
+    background-image: url(../img/back2.jpg);
+    background-size: 100%;
+    background-repeat:round;
+}
+
+.cuerpo h1{
+    background-color: rgb(66, 65, 67);
+    background-repeat: repeat;
+    font-family: 'Manuale', serif;
+    color: rgb(237, 240, 234);
+    letter-spacing: 8px;
+    padding: 0 30px;
+    text-align: center;
+            
+}
+
+
+.cuerpo table{
+    background-color: rgb(66, 65, 67);
+    opacity: 0.9;
+          
+}
+
+.foto {
+    height: 10px;
+    border: inset 5px gray;
+    opacity: 1;
+}
+
+.cuerpo .descripcion{
+
+    width: 100%;
+    padding: 0 200px 0 20px ;
+    font-family: 'Overlock', cursive;
+    font-size:xx-large;
+    text-align: justify;
+    color:rgba(248, 249, 248, 0.872)
+
+      
+}
+
+
+.cuerpo .precio{
+    font-family: 'Dancing Script';
+    font-size:x-large;
+    text-align: center;
+    color: rgba(248, 249, 248, 0.872);
+}
+
+.cuerpo .descripcion i{
+    font-family: 'Amatic SC', cursive;
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+     
+}
+
+
+
+/*para el footer*/
+
+body footer{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    flex-direction: column;
+    background-color:rgba(57, 58, 58, 0.644);
+    background-size: 550px; 
+    font-family: 'Manuale', serif;
+    font-size: 20px; 
+    color:antiquewhite;
+    text-align: center;
+}
+
+.footer .loguito{
+    padding-right:100px;
+}
+.footer .horarios{
+    padding-left: 180px ;
+}
+
+.footer .buscanos{
+    padding-left: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
