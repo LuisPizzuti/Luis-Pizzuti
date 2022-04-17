@@ -33,72 +33,23 @@ body{
 }
 
 
-.cuerpo table{
-    background-color: rgb(66, 65, 67);
-    opacity: 0.9;
-          
-}
-
-.foto {
-    height: 10px;
-    border: inset 5px gray;
-    opacity: 1;
-}
-
-.cuerpo .descripcion{
-
-    width: 100%;
-    padding: 0 200px 0 20px ;
-    font-family: 'Overlock', cursive;
-    font-size:xx-large;
-    text-align: justify;
-    color:rgba(248, 249, 248, 0.872)
-
-      
-}
-
-
-.cuerpo .precio{
-    font-family: 'Dancing Script';
-    font-size:x-large;
-    text-align: center;
-    color: rgba(248, 249, 248, 0.872);
-}
-
-.cuerpo .descripcion i{
-    font-family: 'Amatic SC', cursive;
-    font-size:x-large;
-    color: rgb(255, 255, 255);
-     
-}
-
-
-
 /*para el footer*/
 
-body footer{
+   .footer {
+    grid-area: footer;
     display: flex;
     justify-content: center;
     gap: 500px;
     flex-direction: column;
-    background-color:rgba(57, 58, 58, 0.644);
+    background-color:rgba(57, 58, 58, 0.726);
+    opacity: 0.8;
     background-size: 550px; 
     font-family: 'Manuale', serif;
     font-size: 20px; 
     color:antiquewhite;
     text-align: center;
-}
 
-.footer .loguito{
-    padding-right:100px;
-}
-.footer .horarios{
-    padding-left: 180px ;
-}
-
-.footer .buscanos{
-    padding-left: 230px;
-}
+    }
 
 
 
