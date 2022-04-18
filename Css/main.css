@@ -102,7 +102,6 @@ body{
         grid-column: 2/3;
         background-size: cover;
         background-image: url(/img/comidas.jpg);
-        margin 30px auto;
     }
 
     .img2 a{
@@ -156,7 +155,7 @@ body{
      display: flex;
      justify-content:center;
      flex-wrap: wrap;
-     gap: 10px;
+     gap: 5px;
      background-color:rgba(0, 0, 0, 0.664);
 
     }
