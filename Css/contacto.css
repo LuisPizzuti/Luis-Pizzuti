@@ -1,0 +1,77 @@
+/*menu de navegacion*/
+#navbarNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: x-large;
+}
+
+.container-fluid {
+  background-color: #363a45;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+/*cuerpo*/
+body {
+  background-image: url(/img/24131089_330194467448535_2491115651563731776_n.jpg);
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(48, 47, 47, 0.9);
+  font-family: 'Allura';
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #eff0f1;
+}
+
+.titulo h1 {
+  font-size: xx-large;
+}
+
+.todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+  color: #eff0f1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(66, 65, 67, 0.801);
+  margin-top: 10px;
+}
+
+/*para el footer*/
+.footer {
+  grid-area: footer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(57, 58, 58, 0.726);
+  opacity: 0.8;
+  background-size: 550px;
+  font-family: 'Manuale', serif;
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: center;
+}
+/*# sourceMappingURL=contacto.css.map */
