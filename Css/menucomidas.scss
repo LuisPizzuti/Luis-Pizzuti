@@ -1,6 +1,6 @@
 /*menu de navegacion*/
 
-#navbarNav {    
+#navbarNav {
     justify-content: end;
     font-size: x-large;
   }
@@ -13,7 +13,7 @@
     padding-right: 30px;
   }
   
-  /*cuerpo*/
+  /*----------------------cuerpo-------------------*/
   
   body {
     background-image: url(../img/back2.jpg);
@@ -21,7 +21,8 @@
     background-repeat: round;
   }
   
-  .cuerpo h1 {
+  .cuerpo{
+       h1 {
     background-color: rgb(66, 65, 67);
     background-repeat: repeat;
     font-family: 'Manuale', serif;
@@ -29,6 +30,7 @@
     letter-spacing: 8px;
     padding: 0 30px;
     text-align: center;
+    }
   }
   
   /*para el footer*/
