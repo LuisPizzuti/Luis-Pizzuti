@@ -1,0 +1,253 @@
+body {
+  background-image: url(/img/24131089_330194467448535_2491115651563731776_n.jpg);
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+@media screen and (min-width: 800px) {
+  /*------------------------------menu de navegacion-------*/
+  #navbarNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    font-size: x-large;
+  }
+  .container-fluid {
+    background-color: #363a45;
+  }
+  .nav-item {
+    padding-right: 30px;
+  }
+  /*------------logo home-----------------------------------------------------------------------------------------------------*/
+  .imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0.8;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*--------imagenes+menu--------------------------------------------------------------------------------------*/
+  #seccion {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 800px;
+        grid-template-rows: 800px;
+    gap: 5px;
+  }
+  .img1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    background-size: cover;
+    background-image: url(/img/bebidas.jpg);
+  }
+  .img1 a {
+    text-decoration: none;
+  }
+  .img1 .img1__info {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 800px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+  .img1:hover .img1__info {
+    opacity: 1;
+  }
+  h1.bebidas {
+    font-size: xx-large;
+    margin-top: 150px;
+    -webkit-transition: margin-right 0.3s;
+    transition: margin-right 0.3s;
+    text-align: center;
+    color: aliceblue;
+  }
+  .img1:hover p.bebidas {
+    margin-left: 115px;
+  }
+  p.bebidas2 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-transition: margin-top 0.4s;
+    transition: margin-top 0.4s;
+    color: antiquewhite;
+  }
+  .img1:hover p.bebidas2 {
+    margin-top: 75px;
+  }
+  .img2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    background-size: cover;
+    background-image: url(/img/comidas.jpg);
+  }
+  .img2 a {
+    text-decoration: none;
+  }
+  .img2 .img2__info {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 800px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+  .img2:hover .img2__info {
+    opacity: 1;
+  }
+  h1.comidas {
+    font-size: xx-large;
+    margin-top: 150px;
+    -webkit-transition: margin-right 0.3s;
+    transition: margin-right 0.3s;
+    text-align: center;
+    color: aliceblue;
+  }
+  .img2:hover p.comidas {
+    margin-left: 115px;
+  }
+  p.comidas2 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-transition: margin-top 0.4s;
+    transition: margin-top 0.4s;
+    color: antiquewhite;
+  }
+  .img2:hover p.comidas2 {
+    margin-top: 75px;
+  }
+  /*-----------------videos---------------------*/
+  #videos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.664);
+  }
+  #videos .video4 {
+    padding-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /*area de contacto y mapa-----------------------------------------------------------------------------------------*/
+  #contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #contacto a {
+    text-decoration: none;
+  }
+  #contacto .contacto__estamos {
+    text-align: center;
+    padding-top: 90px;
+    color: antiquewhite;
+    font-family: 'Manuale', serif;
+  }
+  #contacto .contacto__estamos h1 {
+    color: antiquewhite;
+  }
+  /*footer-------------------------------------------------------------------------------------------------------*/
+  .footer {
+    grid-area: footer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: rgba(57, 58, 58, 0.726);
+    opacity: 0.8;
+    background-size: 550px;
+    font-family: 'Manuale', serif;
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+  }
+}
+
+/*-----------------------------------------responsive----------------------------------------*/
+@media (min-width: 320px) and (max-width: 799px) {
+  * {
+    background-image: url(/img/24131089_330194467448535_2491115651563731776_n.jpg);
+    background-repeat: repeat;
+    background-size: 250px;
+    margin: 0;
+    padding: 0;
+  }
+  h1.comidas {
+    display: none;
+  }
+  p.comidas2, p.bebidas2 {
+    display: none;
+  }
+  h1.bebidas {
+    display: none;
+  }
+  #videos .video3, #videos .video4 {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  #videos .video1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+  }
+  #contacto a {
+    text-decoration: none;
+  }
+  #contacto .contacto__estamos {
+    text-align: center;
+    padding-top: 5px;
+    color: antiquewhite;
+    font-family: 'Manuale', serif;
+  }
+}
+/*# sourceMappingURL=home.css.map */

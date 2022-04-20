@@ -1,0 +1,50 @@
+/*menu de navegacion*/
+
+#navbarNav {
+    
+    justify-content: end;
+    font-size: x-large;
+  }
+  
+  .container-fluid {
+    background-color: rgba(54, 58, 69, 255);
+  }
+  
+  .nav-item {
+    padding-right: 30px;
+  }
+  
+  /*cuerpo*/
+  
+  body {
+    background-image: url(../img/back2.jpg);
+    background-size: 100%;
+    background-repeat: round;
+  }
+  
+  .cuerpo h1 {
+    background-color: rgb(66, 65, 67);
+    background-repeat: repeat;
+    font-family: 'Manuale', serif;
+    color: rgb(237, 240, 234);
+    letter-spacing: 8px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  /*para el footer*/
+  
+  .footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    flex-direction: column;
+    background-color: rgba(57, 58, 58, 0.726);
+    opacity: 0.8;
+    background-size: 550px;
+    font-family: 'Manuale', serif;
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+  }
