@@ -45,15 +45,21 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #contacto a {
-    text-decoration: none;
-  }
   #contacto .contacto__estamos {
     text-align: center;
     padding-top: 90px;
     color: antiquewhite;
     font-family: 'Manuale', serif;
     background-color: rgba(0, 0, 0, 0.822);
+  }
+  #contacto .contacto__estamos .contacto__boton {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(57, 58, 58, 0.979);
+  }
+  #contacto .contacto__estamos .contacto__boton a {
+    text-decoration: none;
   }
   #contacto .contacto__estamos h1 {
     color: antiquewhite;

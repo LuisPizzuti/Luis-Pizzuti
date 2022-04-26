@@ -19,14 +19,16 @@ body {
     padding-right: 30px;
   }
   /*------------logo home-----------------------------------------------------------------------------------------------------*/
-  .imagen {
+  .imagengrande, .imagen {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    opacity: 0.8;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .imagen {
+    opacity: 0.9;
   }
   /*--------imagenes+menu--------------------------------------------------------------------------------------*/
   #seccion {
@@ -159,14 +161,21 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #contacto a {
-    text-decoration: none;
-  }
   #contacto .contacto__estamos {
     text-align: center;
     padding-top: 90px;
     color: antiquewhite;
     font-family: 'Manuale', serif;
+    font-size: xx-large;
+  }
+  #contacto .contacto__estamos .contacto__boton {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(57, 58, 58, 0.979);
+  }
+  #contacto .contacto__estamos .contacto__boton a {
+    text-decoration: none;
   }
   #contacto .contacto__estamos h1 {
     color: antiquewhite;
@@ -189,7 +198,7 @@ body {
     opacity: 0.8;
     background-size: 550px;
     font-family: 'Manuale', serif;
-    font-size: 20px;
+    font-size: large;
     color: antiquewhite;
     text-align: center;
   }

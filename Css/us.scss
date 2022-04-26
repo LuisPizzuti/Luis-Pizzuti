@@ -38,15 +38,19 @@ a {
   
     /*-------------------mapa y contacto---------------------------------*/
   
+
+    @mixin boton {
+      display: inline-block;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: rgba(57, 58, 58, 0.979);
+    }
+
     #contacto {
       display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
-  
-      a {
-        text-decoration: none;
-      }
   
       .contacto__estamos {
         text-align: center;
@@ -54,6 +58,16 @@ a {
         color: antiquewhite;
         font-family: 'Manuale', serif;
         background-color: rgba(0, 0, 0, 0.822);
+
+        .contacto__boton{
+          @include boton;
+
+          a{
+            text-decoration: none;
+          }
+          
+
+        }
   
         h1 {
           color: antiquewhite;

@@ -3,13 +3,21 @@ body {
     background-repeat: repeat;
     background-size: 100px;
   }
-  
+
+  $textsizes: (
+  l1: small,
+  l2: large,
+  l3: x-large,
+  l4: xx-large,
+ );
+
+    
   @media screen and (min-width: 800px) {
     /*------------------------------menu de navegacion-------*/
   
     #navbarNav {
       justify-content: end;
-      font-size: x-large;
+      font-size: map-get($map:$textsizes, $key:l3);
     }
   
     .container-fluid {
@@ -23,10 +31,13 @@ body {
   
     /*------------logo home-----------------------------------------------------------------------------------------------------*/
   
-    .imagen {
+    .imagengrande {
       display: flex;
-      opacity: 0.8;
       justify-content: center;
+    }
+    .imagen {
+      @extend .imagengrande;
+      opacity: 0.9;
     }
   
     /*--------imagenes+menu--------------------------------------------------------------------------------------*/
@@ -63,7 +74,7 @@ body {
     }
   
     h1.bebidas {
-      font-size: xx-large;
+      font-size: map-get($map:$textsizes, $key:l4);
       margin-top: 150px;
       transition: margin-right 0.3s;
       text-align: center;
@@ -75,7 +86,7 @@ body {
     }
   
     p.bebidas2 {
-      font-size: x-large;
+      font-size: map-get($map:$textsizes, $key:l3);
       text-align: center;
       margin-top: 200px;
       transition: margin-top 0.4s;
@@ -111,7 +122,7 @@ body {
     }
   
     h1.comidas {
-      font-size: xx-large;
+      font-size: map-get($map:$textsizes, $key:l4);
       margin-top: 150px;
       transition: margin-right 0.3s;
       text-align: center;
@@ -123,7 +134,7 @@ body {
     }
   
     p.comidas2 {
-      font-size: x-large;
+      font-size: map-get($map:$textsizes, $key:l3);
       text-align: center;
       margin-top: 200px;
       transition: margin-top 0.4s;
@@ -150,22 +161,38 @@ body {
   
     /*area de contacto y mapa-----------------------------------------------------------------------------------------*/
   
+    @mixin boton {
+      display: inline-block;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: rgba(57, 58, 58, 0.979);
+    }
+
+
     #contacto {
       display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
   
-      a {
-        text-decoration: none;
-      }
-  
+       
       .contacto__estamos {
         text-align: center;
         padding-top: 90px;
         color: antiquewhite;
         font-family: 'Manuale', serif;
-  
+        font-size: map-get($map:$textsizes, $key:l4);
+        
+        .contacto__boton{
+          @include boton;
+
+          a{
+            text-decoration: none;
+          }
+          
+
+        }
+        
         h1 {
           color: antiquewhite;
         }
@@ -184,7 +211,7 @@ body {
       opacity: 0.8;
       background-size: 550px;
       font-family: 'Manuale', serif;
-      font-size: 20px;
+      font-size: map-get($map:$textsizes, $key:l2);
       color: antiquewhite;
       text-align: center;
     }
