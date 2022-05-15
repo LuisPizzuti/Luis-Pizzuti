@@ -53,6 +53,7 @@ body {
       grid-column: 1/2;
       background-size: cover;
       background-image: url(../img/bebidas.jpg);
+      
   
       a {
         text-decoration: none;
@@ -74,7 +75,8 @@ body {
     }
   
     h1.bebidas {
-      font-size: map-get($map:$textsizes, $key:l4);
+      font-size: 80px;
+      font-family: 'Manuale', serif;
       margin-top: 150px;
       transition: margin-right 0.3s;
       text-align: center;
@@ -122,7 +124,8 @@ body {
     }
   
     h1.comidas {
-      font-size: map-get($map:$textsizes, $key:l4);
+      font-size: 80px;
+      font-family: 'Manuale', serif;
       margin-top: 150px;
       transition: margin-right 0.3s;
       text-align: center;
@@ -151,8 +154,18 @@ body {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 60px;
+      gap: 30px;
       background-color: rgba(0, 0, 0, 0.664);
+
+      .video1{
+        padding-top: 20px;
+
+      }
+
+      .video3{
+        padding-top: 20px;
+      }
+
   
       .video4 {
         flex-direction: column;

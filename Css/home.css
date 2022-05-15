@@ -64,7 +64,8 @@ body {
     opacity: 1;
   }
   h1.bebidas {
-    font-size: xx-large;
+    font-size: 80px;
+    font-family: 'Manuale', serif;
     margin-top: 150px;
     -webkit-transition: margin-right 0.3s;
     transition: margin-right 0.3s;
@@ -109,7 +110,8 @@ body {
     opacity: 1;
   }
   h1.comidas {
-    font-size: xx-large;
+    font-size: 80px;
+    font-family: 'Manuale', serif;
     margin-top: 150px;
     -webkit-transition: margin-right 0.3s;
     transition: margin-right 0.3s;
@@ -140,8 +142,14 @@ body {
             justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 60px;
+    gap: 30px;
     background-color: rgba(0, 0, 0, 0.664);
+  }
+  #videos .video1 {
+    padding-top: 20px;
+  }
+  #videos .video3 {
+    padding-top: 20px;
   }
   #videos .video4 {
     -webkit-box-orient: vertical;
