@@ -157,16 +157,21 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 20px;
+    gap: 100px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  #contacto .contacto__mapa {
+    padding: 70px;
   }
   #contacto .contacto__estamos {
     text-align: center;
-    padding-top: 90px;
+    padding: 30px;
     color: antiquewhite;
     font-family: 'Manuale', serif;
     font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.63);
   }
   #contacto .contacto__estamos .contacto__boton {
     display: inline-block;
