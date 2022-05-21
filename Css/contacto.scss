@@ -1,17 +1,73 @@
 /*menu de navegacion*/
 
-#navbarNav {
-    justify-content: end;
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+ 
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
+
+#navbarSupportedContent {
+    justify-content:end;
     font-size: x-large;
+
+    
   }
   
   .container-fluid {
     background-color: rgba(54, 58, 69, 2290);
+
+    
+  }
+
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+
+  
+
+  
+  
+  /*.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
   }
   
-  .nav-item {
-    padding-right: 30px;
-  }
+
   
   /*cuerpo*/
   
