@@ -41,14 +41,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px;
   text-align: center;
   font-size: large;
+  padding: 50px 250px;
   color: #eff0f1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(66, 65, 67, 0.801);
+  background-color: rgba(66, 65, 67, 0.87);
   margin-top: 10px;
 }
 
