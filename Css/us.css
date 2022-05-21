@@ -19,7 +19,10 @@ a {
     background-color: #363a45;
   }
   .nav-item {
-    padding-right: 30px;
+    padding-right: 5px;
+  }
+  .dropdown {
+    padding-right: 5px;
   }
   /*-----------------titulo1--------------------*/
   .titulo1 {

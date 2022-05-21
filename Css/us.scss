@@ -12,18 +12,24 @@ a {
     /*--------------------------------header------------------------------*/
   
     #navbarNav {
-      justify-content: end;
+      justify-content:end;
       font-size: x-large;
     }
-  
+    
     .container-fluid {
       background-color: rgba(54, 58, 69, 255);
     }
-  
+    
     .nav-item {
-      padding-right: 30px;
+      padding-right: 5px;
+      
     }
-  
+    
+    .dropdown{
+      padding-right: 5px;
+    
+    
+    }  
     /*-----------------titulo1--------------------*/
   
     .titulo1 {

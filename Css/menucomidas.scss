@@ -1,16 +1,24 @@
 
 #navbarNav {
-    justify-content: end;
-    font-size: x-large;
-  }
+  justify-content:end;
+  font-size: x-large;
+}
+
+.container-fluid {
+  background-color: rgba(54, 58, 69, 255);
+}
+
+.nav-item {
+  padding-right: 5px;
   
-  .container-fluid {
-    background-color: rgba(54, 58, 69, 255);
-  }
-  
-  .nav-item {
-    padding-right: 30px;
-  }
+}
+
+.dropdown{
+  padding-right: 5px;
+
+
+
+}
   
   /*----------------------cuerpo-------------------*/
   
@@ -20,8 +28,7 @@
     background-repeat: round;
   }
   
-  .cuerpo{
-       h1 {
+  h1 {
     background-color: rgb(66, 65, 67);
     background-repeat: repeat;
     font-family: 'Manuale', serif;
@@ -30,7 +37,7 @@
     padding: 0 30px;
     text-align: center;
     }
-  }
+
   
   /*para el footer*/
   

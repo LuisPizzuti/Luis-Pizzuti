@@ -16,7 +16,10 @@ body {
     background-color: #363a45;
   }
   .nav-item {
-    padding-right: 30px;
+    padding-right: 5px;
+  }
+  .dropdown {
+    padding-right: 5px;
   }
   /*------------logo home-----------------------------------------------------------------------------------------------------*/
   .imagengrande, .imagen {

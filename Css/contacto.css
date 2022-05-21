@@ -11,7 +11,11 @@
 }
 
 .nav-item {
-  padding-right: 30px;
+  padding-right: 5px;
+}
+
+.dropdown {
+  padding-right: 5px;
 }
 
 /*cuerpo*/

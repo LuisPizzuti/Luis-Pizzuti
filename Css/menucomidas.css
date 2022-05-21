@@ -10,7 +10,11 @@
 }
 
 .nav-item {
-  padding-right: 30px;
+  padding-right: 5px;
+}
+
+.dropdown {
+  padding-right: 5px;
 }
 
 /*----------------------cuerpo-------------------*/
@@ -20,7 +24,7 @@ body {
   background-repeat: round;
 }
 
-.cuerpo h1 {
+h1 {
   background-color: #424143;
   background-repeat: repeat;
   font-family: 'Manuale', serif;
